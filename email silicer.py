@@ -1,0 +1,10 @@
+def main ():
+    print ("Welcome to Email Slicer!")
+    print("")
+    input_email = input("Enter your email: ")
+    (username, domain) = input_email.split("@")
+    (domain, extension) = domain.split(".")
+    print("Username: ", username)
+    print ("domain: ", domain)
+    print ("extension: ", extension)
+main()
