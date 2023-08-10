@@ -3,9 +3,9 @@ import ssl
 import smtplib
 
 
-email_sender = "omar123456@gmail.com"
+email_sender = "YOUREMAIL@gmail.com"
 
-email_password = "1243"
+email_password = "YOUR_PASSWER"
 
 email_reciever = "yovitem847@dotvilla.com"
 
